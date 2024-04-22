@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
 export default function TodoList() {
+  // const typeNewTodo = document.getElementById('typeNewTodo');
+  // const sendNewTodo = document.getElementById('sendNewTodo');
+
   const initialTodos = [
     {
       id: 1,
