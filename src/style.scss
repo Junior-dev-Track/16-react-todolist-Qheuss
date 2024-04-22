@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  body {
+    background-color: rgb(255, 253, 243);
+    .container {
+      margin: 0 auto;
+      max-width: 144rem;
+    }
+    .header {
+      background-color: cornsilk;
+      border-bottom: 1px solid gainsboro;
+      min-height: 10rem;
+      h1 {
+        font-size: 5.6rem;
+      }
+    }
+  }
+}
