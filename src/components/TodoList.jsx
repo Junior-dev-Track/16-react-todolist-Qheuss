@@ -13,7 +13,7 @@ export default function TodoList() {
     {
       id: 2,
       name: 'My second todo',
-      done: true,
+      done: false,
     },
   ];
 
@@ -43,8 +43,10 @@ export default function TodoList() {
             name={todo.name}
             checked={todo.done}
             onChange={() => handleCheck(todo.id)}
-          />{' '}
+          />
+          {' "'}
           {todo.name}
+          {'"'}
         </li>
       ))}
     </ul>

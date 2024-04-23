@@ -21,13 +21,49 @@ html {
       min-height: 10rem;
       h1 {
         font-size: 5.6rem;
+        color: rgb(94, 57, 26);
       }
     }
     .todoForm {
       padding: 4rem 0;
+      form {
+        display: flex;
+        input {
+          border: beige solid 1px;
+          padding: 1rem 1rem;
+          font-size: 2rem;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+          outline: rgba(199, 143, 23, 0.418) solid 1px;
+        }
+        button {
+          margin-left: 2.5rem;
+          padding: 0 2rem;
+          border: none;
+          border-radius: 1rem;
+          color: rgba(32, 32, 32, 0.781);
+          font-size: 1.6rem;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          background-color: rgba(199, 143, 23, 0.418);
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
     }
     .todoList {
       padding: 4rem 0;
+      h2 {
+        font-size: 1.6rem;
+        color: rgb(94, 57, 26);
+      }
+      ul {
+        li {
+          font-size: 1.8rem;
+          margin: 0.5rem 0;
+          color: rgba(0, 0, 0, 0.8);
+        }
+      }
     }
   }
 }
